@@ -1,0 +1,25 @@
+# Ignorar node_modules en todas las subcarpetas
+**/node_modules/
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar logs de npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignorar archivos de configuración de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos generados
+dist/
+build/
+*.log
