@@ -17,7 +17,7 @@ Aplicación web desarrollada con React (frontend) y Node.js con Express (backend
 Sistema-Torneo-De-Futbol/
 ├── client/               # Aplicación React (frontend)
 ├── server/               # Servidor Node.js con Express (backend)
-│   └── database/
+│   └── config/
 │       └── db.js         # Configuración de conexión a MySQL
 ├── torneo_db.sql         # Script para crear y poblar la base de datos
 └── .gitignore
