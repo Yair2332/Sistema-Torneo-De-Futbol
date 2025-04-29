@@ -42,7 +42,7 @@ cd Sistema-Torneo-De-Futbol
 mysql -u tu_usuario -p torneo_db < torneo_db.sql
 ```
 
-- Luego edita el archivo `server/database/db.js` para colocar tus datos de conexión:
+- Luego edita el archivo `server/config/db.js` para colocar tus datos de conexión:
 
 ```js
 const db = mysql.createConnection({
